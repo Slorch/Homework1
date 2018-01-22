@@ -40,5 +40,8 @@ int main() {
 	cout << age << endl;
 	cout << cmheight << endl;
 	cout << avg_growth << endl;
-	//system("pause");
+	
+	cout << "Hello " << fname<< " " << lname<< ". You are " << age << " years old in 2018, and your height is " <<cmheight<< " cm. "
+		"That means that you grew an average of " << avg_growth << "cm per year (assuming you were 51 cm at birth).";
+	system("pause");
 }
